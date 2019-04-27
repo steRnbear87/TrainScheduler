@@ -1,0 +1,21 @@
+.jumbotron{
+    /* background: navy; */
+    color: #f4fafa;
+    text-align: center;
+    padding: 20px;
+    background-image: url("../images/train.jpg");
+    font-weight: bold;
+}
+#submit-user{
+    float: right;
+}
+body{
+    margin: 20px;
+}
+.panel-heading{
+    background: lightslategray;
+    color: white;
+}
+.panel{
+    border: 1px solid lightslategray;
+}
