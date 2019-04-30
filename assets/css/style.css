@@ -1,9 +1,9 @@
 .jumbotron{
     /* background: navy; */
-    color: #f4fafa;
+    color:black;
     text-align: center;
     padding: 20px;
-    background-image: url("../images/train.jpg");
+    background-color: lightseagreen;
     font-weight: bold;
 }
 #submit-user{
@@ -11,11 +11,12 @@
 }
 body{
     margin: 20px;
+    background-color: black;
 }
 .panel-heading{
-    background: lightslategray;
+    background: lightseagreen;
     color: white;
 }
 .panel{
-    border: 1px solid lightslategray;
+    border: 1px solid lightseagreen;
 }

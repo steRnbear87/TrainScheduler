@@ -13,16 +13,16 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="icon" type="image/png" href="assets/images/favicon.ico">
 
-    <title>Train Scheduler</title>
+    <title>TrainScheduler</title>
 </head>
 <body>
     <div class="jumbotron">
-        <h2>Train Schedule</h2>
-        <h3>Find your train information below</h3>
+        <h2>TrainScheduler</h2>
+        
     </div>
     <div class="row">
            
-        <div class="col-lg-6">
+        <div class="col-lg">
             <div class="panel ">
             <div class="panel-heading">
                 <h3 class="panel-title">Current Train Schedule</h3>
@@ -34,9 +34,9 @@
                         <tr>
                         <th scope="col">Train Name</th>
                         <th scope="col">Destination</th>
-                        <th scope="col">Frequency (min)</th>
+                        <th scope="col">Frequency</th>
                         <th scope="col">Next Arrival</th>
-                        <th scope="col">Minutes Away</th>
+                        <th scope="col">ETA</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -50,7 +50,7 @@
     <div class="row">
 
         
-        <div class="col-lg-6">
+        <div class="col-lg">
             <div class="panel">
             <div class="panel-heading">
                 <h3 class="panel-title">Add Train</h3>
@@ -68,11 +68,11 @@
                     <input class="form-control" id="destination-input" type="text">
                 </div>
                 <div class="form-group">
-                    <label for="start-input">First Train Time (HH:mm-military time) :</label>
+                    <label for="start-input">First Train Time</label>
                     <input class="form-control" id="start-input" type="text">
                 </div>
                 <div class="form-group">
-                    <label for="rate-input">Frequency (min)</label>
+                    <label for="rate-input">Frequency</label>
                     <input class="form-control" id="rate-input" type="number">
                 </div>
                 <button class="btn btn-default btn-primary" id="submit-train" type="submit">Submit</button>
